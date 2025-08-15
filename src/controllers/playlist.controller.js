@@ -164,7 +164,7 @@ const getPlaylistById = asyncHandler(async (req, res) => {
         {
             $addFields: {
                 owner: {$first: "$ownerDetails"},
-                totalVideos: { $size: "$videos" },
+                totalVideos: { $size: "$videoDetails" },
                 totalViews: { $sum: "$videoDetails.views" },
             }
         },
