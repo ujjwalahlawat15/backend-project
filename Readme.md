@@ -34,10 +34,9 @@ With VidStream, users can sign up, log in, upload videos, like/dislike, comment,
 ⚙️ Setup Guide
 1. Clone the repository
  ```
-git clone https://github.com/ujjwalahlawat15/backend-project.git
-cd backend-project
-
- ```
+git clone https://github.com/ujjwalahlawat15/vidstream-backend.git
+cd vidstream-backend
+```
 
 2. Install dependencies
  ```
